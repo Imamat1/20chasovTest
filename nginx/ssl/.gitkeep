@@ -1,0 +1,6 @@
+# Поместите ваши SSL сертификаты здесь:
+# - cert.pem
+# - key.pem
+# 
+# Для получения бесплатных SSL сертификатов используйте Let's Encrypt:
+# https://letsencrypt.org/
