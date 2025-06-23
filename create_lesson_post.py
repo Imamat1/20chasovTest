@@ -4,8 +4,10 @@ import json
 import uuid
 from datetime import datetime
 
-# Configuration
-BASE_URL = "https://195df441-ab0b-412b-b143-51de00e9aea7.preview.emergentagent.com/api"
+import os
+
+# Configuration - используем переменную окружения или localhost по умолчанию
+BASE_URL = os.getenv('API_BASE_URL', 'http://localhost:8001/api')
 ADMIN_USERNAME = "admin"
 ADMIN_PASSWORD = "admin123"
 
