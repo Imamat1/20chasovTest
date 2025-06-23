@@ -3,6 +3,7 @@ import sys
 import json
 import uuid
 import random
+import os
 from datetime import datetime
 
 class QAAPITester:
